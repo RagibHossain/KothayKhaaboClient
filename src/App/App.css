@@ -1,0 +1,258 @@
+
+a{
+  padding:20px;
+}
+.nav{
+  background-color: #1B1B1B;
+}
+.global-font{
+  font-weight: normal;
+  font-family: 'Do Hyeon', sans-serif;
+  border-color: #1b1b1b;
+}
+.navlink {
+  color: #ffffff;
+  font-size: large;
+  font-weight: normal;
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+
+.cardImage{
+  width: 400px;
+  height: 300px;
+}
+
+.dashboard{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.homeImage{
+  margin-left: 250px;
+  margin-top : 80px;
+}
+.button-font{
+  
+  font-weight: normal;
+  font-family: 'Do Hyeon', sans-serif;
+  border-style: solid;
+  border-color: #1b1b1b;
+
+}
+.main-head{
+  height: 150px;
+  background: #FFF;
+ 
+}
+
+.sidenav {
+  height: 100%;
+  background-color: #1b1b1b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main {
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+  .login-form{
+      margin-top: 10%;
+  }
+  .homeImage{
+    margin-left: 20%;
+    margin-top : 30%;
+  }
+  .register-form{
+      margin-top: 10%;
+  }
+  .cardListDiv{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:767px){
+  .cardListDiv{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .homeImage{
+    margin-left: 30%;
+    margin-top : 20%;
+  }
+}
+@media screen and (min-width: 768px){
+  .main{
+      margin-left: 40%; 
+  }
+  .homeImage{
+    margin-left: 50%;
+    margin-top : 6%;
+  }
+
+  .sidenav{
+      width: 40%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+  }
+  .custombtn{
+    width: 40%;
+  }
+  .login-form{
+      
+      padding: 10%;
+      margin-top: 20%;
+      margin-left: 40%;
+  }
+
+  .register-form{
+      margin-top: 20%;
+  }
+}
+
+.login-main-text{
+  margin-top: 20%;
+  padding: 60px;
+  color: #fff;
+  font-weight: normal;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.login-main-text h2{
+  font-weight: 300;
+}
+
+
+/* Button Design  */
+
+.btn-black{
+  background-color: #000 !important;
+  color: #fff;
+}
+.buttongroup{
+  padding:2%;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.custombtn:hover{
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+  color: #1B1B1B;
+  outline: none;
+  border: none;
+}
+
+.custombtn{
+  width: 200px;
+  height: 50px;
+  background-color: #1B1B1B;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+}
+
+.submitButton{
+  width: 80px;
+  height: 40px;
+  background-color: #1B1B1B;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  border-radius: 7%;
+  font-weight: normal;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.dangerButton{
+  width: 80px;
+  height: 40px;
+  background-color: #c70909;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  border-radius: 7%;
+  font-weight: normal;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.submitButton:hover,.dangerButton:hover{
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+  color: #1B1B1B;
+  outline: none;
+  border: solid 2px #1b1b1b;
+}
+.navlink:hover{
+  text-decoration : none;
+  background-color: #ffffff;
+  color: #1B1B1B;
+  border-radius: 3%;
+}
+.restaurantCard:hover{
+  transition-duration: 1s;
+  transform: scale(1.1,1.1);
+}
+.subHeader{
+  display: flex;
+}
+.icon{
+  max-height: 130px;
+  width: 130px;
+}
+.icon:hover{
+  transition-duration: 1s;
+  transform: scale(1.1,1.1);
+}
+.iconImage{
+  width: 100%;
+}
+.title{
+  font-size: 50px;
+  font-family: 'Do Hyeon', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.subTitle{
+  font-family: 'Do Hyeon', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.restaurantList{
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.coverDiv{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.coverImage{
+  height: 100%;
+  width: 100%;
+}
+.coverImageInnerDiv{
+  height: 400px;
+  width: 400px;
+}
+.cardListDiv{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.review{
+  display: flex;
+}
+.detailsCard,.modalHeader{
+  font-weight: 100;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.reviewList{
+  border: solid 1px #a19c9c;
+}
+.reviewText{
+  font-family: 'Jaldi', sans-serif;
+}
